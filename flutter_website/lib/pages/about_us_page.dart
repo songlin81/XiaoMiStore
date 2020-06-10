@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'about_contact_page.dart';
 
 class AboutUsPage extends StatefulWidget{
   @override
@@ -42,6 +43,9 @@ class AboutUsPageState extends State<AboutUsPage>{
             ListTile(
               leading: Icon(Icons.phone),
               title: Text('联系我们'),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>AboutContactPage()));
+              },
             ),
             Divider(
               height: 10.0,
