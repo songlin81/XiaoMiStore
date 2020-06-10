@@ -1,0 +1,31 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "http_server",
+      "rootUri": "file:///C:/Users/v0cn140/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/http_server-0.9.8+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///C:/Users/v0cn140/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/mime-0.9.6+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///C:/Users/v0cn140/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/path-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_site_server",
+      "rootUri": "../",
+      "packageUri": "lib/"
+    }
+  ],
+  "generated": "2020-06-06T08:20:41.170175Z",
+  "generator": "pub",
+  "generatorVersion": "2.8.4"
+}
