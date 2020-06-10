@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import '../conf/configure.dart';
 
-getNewsResult([int page = 0]) async {
+getNewsResult() async {
   String url = 'http://' + Config.IP + ':' + Config.PORT + '/?action=getNews';
   var res = await http.get(url);
   String body = res.body;

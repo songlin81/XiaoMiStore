@@ -29,7 +29,7 @@ void handleGET(HttpRequest request){
   var action=request.uri.queryParameters['action'];
   if(action == 'getProducts'){
     
-    //var page = request.uri.queryParameters['page'];
+    var page = request.uri.queryParameters['page'];
     //print('第$page页数据:' + json.encode(products));
     //print('获取产品数据。。。');
 

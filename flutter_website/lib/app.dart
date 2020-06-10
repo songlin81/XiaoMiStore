@@ -1,7 +1,7 @@
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'pages/about_us.dart';
+import 'pages/about_us_page.dart';
 import 'pages/home_page.dart';
 import 'pages/news_page.dart';
 import 'pages/product_page.dart';

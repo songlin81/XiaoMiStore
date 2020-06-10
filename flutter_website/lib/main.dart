@@ -11,7 +11,7 @@ void main() => runApp(MaterialApp(
   routes: <String,WidgetBuilder>{
     "app": (BuildContext context) => App(),
     "company_info": (BuildContext context) => WebviewScaffold(
-      url: "http://www.baidu.com",
+      url: "http://192.168.18.37:8080/?action=getNews",
       appBar: AppBar(
         title: Text('公司介绍'),
         leading: IconButton(
