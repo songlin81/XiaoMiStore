@@ -62,7 +62,7 @@ class AboutContactPageState extends State<AboutContactPage>{
               height: 48.0,
               child: RaisedButton(
                 child: Text('给我们留言', style: TextStyle(fontSize: 16.0),),
-                color: Colors.redAccent,
+                color: Theme.of(context).primaryColor,//Colors.redAccent,
                 colorBrightness: Brightness.dark,
                 textColor: Colors.white,
                 padding: EdgeInsets.only(
