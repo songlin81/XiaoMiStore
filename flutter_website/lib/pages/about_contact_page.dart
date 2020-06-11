@@ -35,6 +35,9 @@ class AboutContactPageState extends State<AboutContactPage>{
                 controller: controller,
                 decoration: InputDecoration(
                   hintText: '请留言',
+                  labelText: '请留言',
+                  border: OutlineInputBorder(),
+                  prefixIcon: Icon(Icons.person),
                 ),
               ),
             ),
